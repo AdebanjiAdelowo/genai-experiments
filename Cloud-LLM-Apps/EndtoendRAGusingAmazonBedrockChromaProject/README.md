@@ -7,16 +7,20 @@ A Retrieval Augmented Generation (RAG) chatbot built with Streamlit, LangChain, 
 ```
 PDF files → Load & split → ChromaDB (vector store, persisted to disk)
                                     ↓
-User question → Retrieve top-3 chunks → Mistral 7B (Bedrock) answers using context
+User question → Retrieve top-5 chunks → Mistral 7B (Bedrock) answers using context
 ```
 
 ## Features
 
 - Load and index all PDFs from the `data/` folder
 - Persistent ChromaDB vector store (survives restarts)
+- Streaming responses for real-time output
+- Source citations — see which page of which PDF each answer came from
+- Vector store status indicator in sidebar
+- Chat input disabled until vector store is built
 - Chat history with session state
 - Titan Embed v1 embeddings via Amazon Bedrock
-- Mistral 7B Instruct via Amazon Bedrock
+- Mistral 7B Instruct via Amazon Bedrock (Converse API)
 
 ## Setup
 
@@ -43,11 +47,15 @@ aws_secret_access_key=your-aws-secret-access-key
 region_name=us-east-1
 ```
 
-### 4. Enable Bedrock model access
+### 4. Bedrock model access
 
-In the AWS Console, go to **Amazon Bedrock → Model access** and enable:
+Bedrock foundation models are **automatically enabled** when first invoked — no manual activation needed. Simply invoke the model via the API or open it in the Bedrock playground and it will be available account-wide across all AWS commercial regions.
+
+Models used in this project:
 - `amazon.titan-embed-text-v1` (embeddings)
 - `mistral.mistral-7b-instruct-v0:2` (generation)
+
+> **Note:** Account admins can still restrict model access via IAM policies and Service Control Policies if needed.
 
 ### 5. Add PDFs and run
 

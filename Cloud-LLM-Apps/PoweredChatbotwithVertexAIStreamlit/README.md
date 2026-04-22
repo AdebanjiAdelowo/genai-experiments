@@ -1,11 +1,19 @@
-# VertexAI Local Demo
+# Gemini 2.0 Flash Chatbot — Vertex AI + Streamlit
 
-A minimal Streamlit app to interact with Google Gemini 1.5 Flash via Vertex AI from your local machine.
+A conversational chatbot built with Streamlit and Google Vertex AI. Supports multi-turn conversation with full chat history, streaming responses, and a system prompt giving Gemini a helpful persona.
+
+## Features
+
+- Multi-turn conversation — Gemini remembers the full chat history
+- Streaming responses for real-time output
+- System prompt with clear persona and guidelines
+- Clear chat button to reset the conversation
+- Powered by Gemini 2.0 Flash via Vertex AI
 
 ## Tech Stack
 
 - **Python** — application logic
-- **Vertex AI** — Gemini 1.5 Flash model
+- **Vertex AI** — Gemini 2.0 Flash model
 - **Streamlit** — web UI
 
 ## Setup
