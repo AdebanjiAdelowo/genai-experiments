@@ -1,6 +1,6 @@
 # Generative AI Projects
 
-A collection of end-to-end Generative AI projects covering RAG pipelines, LLM fine-tuning, chatbots, vector databases, and LLMOps — built with LangChain, OpenAI, Google Vertex AI, Amazon Bedrock, and more.
+A collection of end-to-end Generative AI projects covering RAG pipelines, LLM fine-tuning, chatbots, vector databases, and cloud LLM deployment, built with LangChain, OpenAI, Google Vertex AI, Amazon Bedrock, and more.
 
 ---
 
@@ -14,17 +14,17 @@ A collection of end-to-end Generative AI projects covering RAG pipelines, LLM fi
 
 ---
 
-## LLMOps-Cloud-Deployments
+## Cloud-LLM-Apps
 
 | Project | Description | Stack |
 |---|---|---|
-| [RAG with Amazon Bedrock](LLMOps-Cloud-Deployments/End-to-end-RAG-using-Amazon-Bedrock/) | RAG pipeline over PDF documents using AWS Bedrock and Titan embeddings | Bedrock, ChromaDB, LangChain, Streamlit |
-| [Generative AI with Bedrock](LLMOps-Cloud-Deployments/GenerativeAI-Project-Bedrock/) | Document Q&A with FAISS vector store on AWS Bedrock | Bedrock, FAISS, LangChain, Streamlit |
-| [LLM-Powered Chatbot](LLMOps-Cloud-Deployments/LLM-Powered-Chatbot/) | Conversational chatbot powered by Gemini 1.5 Flash on Google Cloud | Vertex AI, Gemini 1.5 Flash, Flask |
-| [VertexAI Local Demo](LLMOps-Cloud-Deployments/VertexAI-Local-Demo/) | Local Vertex AI integration demo with Gemini 1.5 Flash | Vertex AI, Streamlit |
-| [RAG on Vertex AI](LLMOps-Cloud-Deployments/RAG%20on%20VertexAI.ipynb) | RAG pipeline notebook using Vertex AI embeddings and Gemini | Vertex AI, LangChain |
-| [Vertex AI Demo](LLMOps-Cloud-Deployments/vertexai%20demo.ipynb) | Multimodal demos with Gemini 1.5 Flash (text, image, chat) | Vertex AI, Gemini 1.5 Flash |
-| [Vertex AI Fine-Tuning](LLMOps-Cloud-Deployments/vertexai_llm_fine_tuning_supervised.ipynb) | Supervised fine-tuning of Gemini 1.5 Flash on BBC News summaries | Vertex AI SFT, Gemini 1.5 Flash |
+| [RAG with Amazon Bedrock (Chroma)](Cloud-LLM-Apps/EndtoendRAGusingAmazonBedrockChromaProject/) | RAG pipeline over PDF documents using AWS Bedrock and a Chroma vector store | Bedrock, ChromaDB, LangChain |
+| [RAG with Amazon Bedrock (FAISS)](Cloud-LLM-Apps/EndtoendRAGusingAmazonBedrockFaissProject/) | RAG pipeline over PDF documents using AWS Bedrock and a FAISS vector store | Bedrock, FAISS, LangChain |
+| [Vertex AI Chatbot (Flask)](Cloud-LLM-Apps/PoweredChatbotwithVertexAIFlask/) | Conversational chatbot powered by Gemini 1.5 Flash on Google Cloud, served with Flask | Vertex AI, Gemini 1.5 Flash, Flask |
+| [Vertex AI Chatbot (Streamlit)](Cloud-LLM-Apps/PoweredChatbotwithVertexAIStreamlit/) | Same chatbot with a Streamlit front end | Vertex AI, Gemini 1.5 Flash, Streamlit |
+| [RAG on Vertex AI](Cloud-LLM-Apps/RAG%20on%20VertexAI.ipynb) | RAG pipeline notebook using Vertex AI embeddings and Gemini | Vertex AI, LangChain |
+| [Vertex AI Demo](Cloud-LLM-Apps/vertexai%20demo.ipynb) | Multimodal demos with Gemini 1.5 Flash (text, image, chat) | Vertex AI, Gemini 1.5 Flash |
+| [Vertex AI Fine-Tuning](Cloud-LLM-Apps/vertexai_llm_fine_tuning_supervised.ipynb) | Supervised fine-tuning of Gemini 1.5 Flash on BBC News summaries | Vertex AI SFT, Gemini 1.5 Flash |
 
 ---
 
@@ -87,8 +87,8 @@ A collection of end-to-end Generative AI projects covering RAG pipelines, LLM fi
 | Project | Description | Stack |
 |---|---|---|
 | [Financial Stock Analysis](LlamaIndex-Projects/financial-stock-llama-index/) | AI-powered stock outlook and competitor analysis reports | LlamaIndex, OpenAI, Streamlit |
-| [LlamaIndex Demo](LlamaIndex-Projects/New%20folder/LlamaIndex_demo.ipynb) | Introductory LlamaIndex notebook covering core indexing and querying concepts | LlamaIndex, OpenAI |
-| [Mistral with LlamaIndex](LlamaIndex-Projects/New%20folder/Mistral_with_llamaindex.ipynb) | LlamaIndex integration with Mistral for local/open-source LLM querying | LlamaIndex, Mistral |
+| [LlamaIndex Demo](LlamaIndex-Projects/LlamaIndex_demo.ipynb) | Introductory LlamaIndex notebook covering core indexing and querying concepts | LlamaIndex, OpenAI |
+| [Mistral with LlamaIndex](LlamaIndex-Projects/Mistral_with_llamaindex.ipynb) | LlamaIndex integration with Mistral for local/open-source LLM querying | LlamaIndex, Mistral |
 
 ---
 
@@ -98,18 +98,8 @@ A collection of end-to-end Generative AI projects covering RAG pipelines, LLM fi
 |---|---|---|
 | [HuggingFace Demo](HuggingFace-Projects/HuggingFace_demo.ipynb) | Model inference and pipeline demos using Hugging Face Transformers | HuggingFace Transformers |
 | [Text Summarizer](HuggingFace-Projects/Text_Summarizer_project.ipynb) | Abstractive text summarization with HuggingFace models | HuggingFace Transformers |
-| [Text-to-Image Generation](HuggingFace-Projects/Copy_of_Text_to_Image_generation_with_LLM_with_hugging_face.ipynb) | Generate images from text prompts using diffusion models | HuggingFace Diffusers |
+| [Text-to-Image Generation](HuggingFace-Projects/Text_to_Image_generation_with_LLM_with_hugging_face.ipynb) | Generate images from text prompts using diffusion models | HuggingFace Diffusers |
 | [Text-to-Speech](HuggingFace-Projects/Text_to_speech_generation_with_LLM_with_hugging_face.ipynb) | Convert text to audio using HuggingFace TTS models | HuggingFace Transformers |
-
----
-
-## Data-Preprocessing-and-Embeddings
-
-| Project | Description | Stack |
-|---|---|---|
-| [Text Preprocessing](Data-Preprocessing-and-Embeddings/Text-Preprocessing.ipynb) | NLP text cleaning and preprocessing techniques | NLTK, spaCy |
-| [Word Embeddings](Data-Preprocessing-and-Embeddings/Text-Representation_Word%20Embeddings-1.ipynb) | Word2Vec, GloVe, and other embedding representations | Gensim, scikit-learn |
-| [ML Text Classification](Data-Preprocessing-and-Embeddings/Text_Classification_using_ML.ipynb) | IMDB sentiment classification with classical ML models | scikit-learn, pandas |
 
 ---
 
@@ -124,7 +114,7 @@ pip install -r requirements.txt
 ```
 
 You will need API keys depending on the project:
-- `OPENAI_API_KEY` — OpenAI projects
-- `PINECONE_API_KEY` — Pinecone vector store projects
-- AWS credentials — Amazon Bedrock projects
-- Google Cloud credentials — Vertex AI projects
+- `OPENAI_API_KEY`: OpenAI projects
+- `PINECONE_API_KEY`: Pinecone vector store projects
+- AWS credentials: Amazon Bedrock projects
+- Google Cloud credentials: Vertex AI projects
