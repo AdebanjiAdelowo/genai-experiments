@@ -11,7 +11,7 @@ User message → Flask backend → Gemini 2.5 Flash (Gemini API) → Response di
 ## Features
 
 - Gemini 2.5 Flash via the Google Gemini API
-- Multi-turn conversation — Gemini remembers the full chat history per session
+- Multi-turn conversation: Gemini remembers the full chat history per session
 - Markdown rendering in bot responses (code blocks, lists, bold text)
 - Animated typing indicator while waiting for a response
 - Auto-resize textarea with Shift+Enter for new lines
@@ -63,6 +63,6 @@ Opens at `http://localhost:8080`.
 
 ## Tech Stack
 
-- [Flask](https://flask.palletsprojects.com/) — web framework
-- [Google Gemini API](https://ai.google.dev/) — Gemini 2.5 Flash model
-- Vanilla JS + marked.js — frontend chat UI
+- [Flask](https://flask.palletsprojects.com/): web framework
+- [Google Gemini API](https://ai.google.dev/): Gemini 2.5 Flash model
+- Vanilla JS + marked.js: frontend chat UI

@@ -15,7 +15,7 @@ User question → Retrieve top-5 chunks → Llama 3 70B (Bedrock) answers using 
 - Load and index all PDFs from the `pdf-data/` folder
 - Persistent FAISS vector store (survives restarts)
 - Streaming responses for real-time output
-- Source citations — see which page of which PDF each answer came from
+- Source citations: see which page of which PDF each answer came from
 - FAISS index status indicator in sidebar
 - Chat input disabled until index is built
 - Chat history with session state
@@ -52,7 +52,7 @@ To get your credentials: **AWS Console → IAM → Users → your user → Secur
 
 ### 4. Bedrock model access
 
-Bedrock foundation models are **automatically enabled** when first invoked — no manual activation needed.
+Bedrock foundation models are **automatically enabled** when first invoked; no manual activation is needed.
 
 Models used in this project:
 - `amazon.titan-embed-text-v1` (embeddings)
@@ -85,7 +85,7 @@ streamlit run research/bedrock_trials.py
 
 ## Tech Stack
 
-- [Streamlit](https://streamlit.io/) — frontend
-- [LangChain](https://langchain.com/) — RAG pipeline
-- [Amazon Bedrock](https://aws.amazon.com/bedrock/) — embeddings (Titan) and generation (Llama 3 70B)
-- [FAISS](https://faiss.ai/) — vector store
+- [Streamlit](https://streamlit.io/): frontend
+- [LangChain](https://langchain.com/): RAG pipeline
+- [Amazon Bedrock](https://aws.amazon.com/bedrock/): embeddings (Titan) and generation (Llama 3 70B)
+- [FAISS](https://faiss.ai/): vector store

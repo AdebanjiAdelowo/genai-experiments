@@ -58,7 +58,7 @@ Opens at `http://localhost:8501`.
 
 ## Tech Stack
 
-- [Streamlit](https://streamlit.io/) — frontend
-- [LangChain](https://langchain.com/) — RAG pipeline
-- [ChromaDB](https://www.trychroma.com/) — vector store
-- [Google Gemini](https://ai.google.dev/) — embeddings and generation
+- [Streamlit](https://streamlit.io/): frontend
+- [LangChain](https://langchain.com/): RAG pipeline
+- [ChromaDB](https://www.trychroma.com/): vector store
+- [Google Gemini](https://ai.google.dev/): embeddings and generation

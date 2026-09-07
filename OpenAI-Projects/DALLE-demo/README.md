@@ -47,6 +47,6 @@ Opens at `http://localhost:8080`.
 
 ## Tech Stack
 
-- [Flask](https://flask.palletsprojects.com/) — web framework
-- [OpenAI DALL-E 2](https://openai.com/dall-e-2) — image generation
-- Bootstrap 5 — frontend styling
+- [Flask](https://flask.palletsprojects.com/): web framework
+- [OpenAI DALL-E 2](https://openai.com/dall-e-2): image generation
+- Bootstrap 5: frontend styling

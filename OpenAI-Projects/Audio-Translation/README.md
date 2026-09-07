@@ -49,7 +49,7 @@ Opens at `http://localhost:8080`.
 
 ## Tech Stack
 
-- [Flask](https://flask.palletsprojects.com/) — web framework
-- [OpenAI Whisper](https://openai.com/research/whisper) — audio transcription
-- [GPT-4o-mini](https://openai.com/api/) — translation
-- Bootstrap 5 — frontend styling
+- [Flask](https://flask.palletsprojects.com/): web framework
+- [OpenAI Whisper](https://openai.com/research/whisper): audio transcription
+- [GPT-4o-mini](https://openai.com/api/): translation
+- Bootstrap 5: frontend styling

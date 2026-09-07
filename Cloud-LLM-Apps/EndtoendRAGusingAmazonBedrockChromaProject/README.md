@@ -15,7 +15,7 @@ User question → Retrieve top-5 chunks → Mistral 7B (Bedrock) answers using c
 - Load and index all PDFs from the `data/` folder
 - Persistent ChromaDB vector store (survives restarts)
 - Streaming responses for real-time output
-- Source citations — see which page of which PDF each answer came from
+- Source citations: see which page of which PDF each answer came from
 - Vector store status indicator in sidebar
 - Chat input disabled until vector store is built
 - Chat history with session state
@@ -49,7 +49,7 @@ region_name=us-east-1
 
 ### 4. Bedrock model access
 
-Bedrock foundation models are **automatically enabled** when first invoked — no manual activation needed. Simply invoke the model via the API or open it in the Bedrock playground and it will be available account-wide across all AWS commercial regions.
+Bedrock foundation models are **automatically enabled** when first invoked; no manual activation is needed. Simply invoke the model via the API or open it in the Bedrock playground and it will be available account-wide across all AWS commercial regions.
 
 Models used in this project:
 - `amazon.titan-embed-text-v1` (embeddings)
@@ -74,7 +74,7 @@ Opens at `http://localhost:8501`.
 
 ## Tech Stack
 
-- [Streamlit](https://streamlit.io/) — frontend
-- [LangChain](https://langchain.com/) — RAG pipeline
-- [Amazon Bedrock](https://aws.amazon.com/bedrock/) — embeddings (Titan) and generation (Mistral 7B)
-- [ChromaDB](https://www.trychroma.com/) — vector store
+- [Streamlit](https://streamlit.io/): frontend
+- [LangChain](https://langchain.com/): RAG pipeline
+- [Amazon Bedrock](https://aws.amazon.com/bedrock/): embeddings (Titan) and generation (Mistral 7B)
+- [ChromaDB](https://www.trychroma.com/): vector store

@@ -56,7 +56,7 @@ Opens at `http://localhost:8501`.
 
 ## Tech Stack
 
-- [Streamlit](https://streamlit.io/) — frontend
-- [LangChain](https://langchain.com/) — RAG pipeline
-- [ChromaDB](https://www.trychroma.com/) — vector store
-- [OpenAI](https://openai.com/) — embeddings and GPT-4o-mini
+- [Streamlit](https://streamlit.io/): frontend
+- [LangChain](https://langchain.com/): RAG pipeline
+- [ChromaDB](https://www.trychroma.com/): vector store
+- [OpenAI](https://openai.com/): embeddings and GPT-4o-mini

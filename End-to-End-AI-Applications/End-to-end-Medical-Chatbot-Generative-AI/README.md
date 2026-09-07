@@ -23,7 +23,7 @@ User question → Retrieve top-3 chunks → GPT-4o-mini answers using context
 ### 1. Navigate to the project directory
 
 ```bash
-cd "/Users/adebanjiadelowo/Documents/GenerativeAIProjects/End to End Projects/End-to-end-Medical-Chatbot-Generative-AI"
+cd End-to-end-Medical-Chatbot-Generative-AI
 ```
 
 ### 2. Create and activate a conda environment
@@ -74,8 +74,8 @@ Opens at `http://localhost:8080`.
 
 ## Tech Stack
 
-- [Flask](https://flask.palletsprojects.com/) — web framework
-- [LangChain](https://langchain.com/) — RAG pipeline (LCEL)
-- [Pinecone](https://pinecone.io/) — vector store
-- [OpenAI GPT-4o-mini](https://openai.com/) — language model
-- [Sentence Transformers](https://www.sbert.net/) — embeddings (`all-MiniLM-L6-v2`)
+- [Flask](https://flask.palletsprojects.com/): web framework
+- [LangChain](https://langchain.com/): RAG pipeline (LCEL)
+- [Pinecone](https://pinecone.io/): vector store
+- [OpenAI GPT-4o-mini](https://openai.com/): language model
+- [Sentence Transformers](https://www.sbert.net/): embeddings (`all-MiniLM-L6-v2`)

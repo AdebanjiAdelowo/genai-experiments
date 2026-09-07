@@ -4,30 +4,30 @@ An AI-powered tool that generates interview and exam questions from any PDF docu
 
 ## Tech Stack
 
-- **Python** — application logic
-- **FastAPI** — async web backend
-- **LangChain** — LLM pipeline with refine chain for question generation
-- **OpenAI** — GPT model for question and answer generation
-- **Jinja2** — HTML templating
+- **Python**: application logic
+- **FastAPI**: async web backend
+- **LangChain**: LLM pipeline with refine chain for question generation
+- **OpenAI**: GPT model for question and answer generation
+- **Jinja2**: HTML templating
 
 ---
 
 ## How to Run
 
-### Step 1 — Create and activate a conda environment
+### Step 1: Create and activate a conda environment
 
 ```bash
 conda create -n interview python=3.10 -y
 conda activate interview
 ```
 
-### Step 2 — Install dependencies
+### Step 2: Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 3 — Set up environment variables
+### Step 3: Set up environment variables
 
 Copy `.env.example` to `.env` and fill in your key:
 
@@ -39,7 +39,7 @@ cp .env.example .env
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-### Step 4 — Run the app
+### Step 4: Run the app
 
 ```bash
 python app.py

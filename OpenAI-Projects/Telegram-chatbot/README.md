@@ -54,6 +54,6 @@ python main.py
 
 ## Tech Stack
 
-- [aiogram 3.x](https://docs.aiogram.dev/) — Telegram bot framework
-- [OpenAI GPT-4o-mini](https://openai.com/api/) — language model
-- [python-dotenv](https://pypi.org/project/python-dotenv/) — environment variables
+- [aiogram 3.x](https://docs.aiogram.dev/): Telegram bot framework
+- [OpenAI GPT-4o-mini](https://openai.com/api/): language model
+- [python-dotenv](https://pypi.org/project/python-dotenv/): environment variables
